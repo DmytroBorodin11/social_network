@@ -1,0 +1,115 @@
+.component__wrap.messages {
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem 0 3rem;
+  max-width: 100rem;
+}
+
+.component__wrap.messages .wrapper {
+  width: 100%;
+  height: calc(100vh - 18rem);
+  display: flex;
+  align-items: flex-start;
+  border-radius: 1rem;
+}
+
+.component__wrap.messages .messages__sidebar {
+  width: 25%;
+  min-width: 25rem;
+  height: 100%;
+  padding: 1.5rem;
+  overflow-y: auto;
+  background-color: #fff;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.component__wrap.messages .dialog__block {
+  position: relative;
+  width: 75%;
+  height: 100%;
+  overflow-y: auto;
+  min-width: calc(100% - 25rem);
+  background-image: url("../assets/images/chat__bg.jpg");
+  background-size: cover;
+  background-position: center;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.component__wrap.messages .dialog__block .messages__block {
+  padding: 0 1.5rem;
+  height: calc(100% - 7rem);
+  overflow-y: auto;
+}
+
+.component__wrap.messages .dialog__block .type__message__block {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 7rem;
+  padding: 1.5rem;
+  background: #fff;
+  z-index: 1;
+}
+
+.component__wrap.messages .dialog__block .ic__btns__block {
+  width: 8rem;
+  margin-right: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.component__wrap.messages .dialog__block .ic__btns__block button {
+  font-size: 2.2rem;
+  color: #3f414d;
+}
+
+.component__wrap.messages .search__block.send {
+  width: calc(100% - 9.5rem);
+  align-items: stretch;
+}
+
+.component__wrap.messages .search__block.send .send__block {
+  width: 13rem;
+  margin-left: 1.5rem;
+}
+
+.component__wrap.messages .search__block.send .send__block .send__btn {
+  width: 100%;
+  height: 100%;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 0.5rem;
+}
+
+.component__wrap.messages .search__block.send .send__block .send__btn .icon-send {
+  margin-right: 1rem;
+}
+
+.component__wrap.messages .messages__sidebar__title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #3f414d;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 2rem;
+}
+
+.component__wrap.messages .user__card {
+  margin-bottom: 2rem;
+}
+
+.component__wrap.messages .user__card:last-child {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=Messages.css.map */

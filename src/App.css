@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Poppins:wght@300;400;600&display=swap');
+@import url('./assets/fonts/icomoon/style.css');
+
+
+/*Reset*/
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  box-sizing: border-box;
+}
+a, img, button, input, textarea {
+  display: block;
+}
+textarea {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  resize: none;
+}
+a, img, button {
+  cursor: pointer;
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+button:focus, input:focus {
+  outline: none;
+}
+ul {
+  list-style-type: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+.App {
+  width: 100%;
+  max-height: 100vh;
+  height: 100vh;
+  position: relative;
+}
+.app__wapper {
+  width: 100%;
+  height: calc(100% - 8rem);
+  display: flex;
+  justify-content: space-between;
+  background-color: #F1F3F6;
+}

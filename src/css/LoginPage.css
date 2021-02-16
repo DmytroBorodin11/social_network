@@ -1,0 +1,121 @@
+.login__page__wrap {
+  width: 100%;
+  height: 100vh;
+}
+
+.login__page__wrap .wrap {
+  width: 100%;
+  height: 100%;
+  background-color: #007bff;
+  display: flex;
+}
+
+.login__page__wrap .left__side, .login__page__wrap .right__side {
+  width: 50%;
+  height: 100%;
+}
+
+.login__page__wrap .right__side {
+  display: flex;
+}
+
+.login__page__wrap .login__block {
+  width: 50%;
+  min-width: 48rem;
+  height: 100%;
+  padding: 4rem;
+  background-color: #fff;
+}
+
+.login__page__wrap .login__title {
+  font-size: 4.2rem;
+  line-height: 6.4rem;
+  font-family: "Poppins", sans-serif;
+  color: #3f414d;
+  margin-bottom: 1rem;
+}
+
+.login__page__wrap .login__text {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  font-family: "Montserrat", sans-serif;
+  color: #777d74;
+  margin-bottom: 3.2rem;
+}
+
+.login__page__wrap .form__group {
+  margin-bottom: 2rem;
+}
+
+.login__page__wrap label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  font-family: "Montserrat", sans-serif;
+  color: #3f414d;
+  margin-bottom: 0.8rem;
+}
+
+.login__page__wrap label[for='checkbox'] {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.login__page__wrap a {
+  color: #007bff;
+  text-align: right;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+
+.login__page__wrap .login__input {
+  display: block;
+  width: 100%;
+  height: 4.6rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1.4rem;
+  font-family: "Montserrat", sans-serif;
+  color: #3f414d;
+  border: 1px solid #f1f1f1;
+  border-radius: 1rem;
+}
+
+.login__page__wrap .login__input::placeholder {
+  color: #777d74;
+}
+
+.login__page__wrap #checkbox {
+  display: block;
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-right: 1rem;
+}
+
+.login__page__wrap .remember__me {
+  cursor: pointer;
+}
+
+.login__page__wrap .remember__me label {
+  cursor: pointer;
+}
+
+.login__page__wrap .btns__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login__page__wrap .sing__in__btn {
+  width: 7.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  background-color: #50B5FF;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=LoginPage.css.map */

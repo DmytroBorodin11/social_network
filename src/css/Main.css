@@ -1,0 +1,13 @@
+.main {
+  width: calc(100% - 60rem);
+  height: calc(100vh - 8rem);
+  overflow-y: auto;
+}
+
+.main__wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+}
+/*# sourceMappingURL=Main.css.map */

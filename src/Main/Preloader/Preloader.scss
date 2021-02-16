@@ -1,0 +1,23 @@
+.preloader {
+  width: 5rem;
+  height: 5rem;
+  border: 1px solid #50B5FF;
+  border-radius: 50%;
+  margin: 3rem auto;
+  &.disabled {
+    display: none;
+  }
+  span {
+    border-radius: 50%;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-top: 3px solid #007bff;
+    animation: 1s spin infinite ease;
+  }
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}

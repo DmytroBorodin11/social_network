@@ -1,0 +1,103 @@
+.login__page__wrap {
+  width: 100%;
+  height: 100vh;
+  .wrap {
+    width: 100%;
+    height: 100%;
+    background-color: #007bff;
+    display: flex;
+  }
+  .left__side, .right__side {
+    width: 50%;
+    height: 100%;
+  }
+  .right__side {
+    display: flex;
+  }
+  .login__block {
+    width: 50%;
+    min-width: 48rem;
+    height: 100%;
+    padding: 4rem;
+    background-color: #fff;
+  }
+  .login__title {
+    font-size: 4.2rem;
+    line-height: 6.4rem;
+    font-family: "Poppins", sans-serif;
+    color: #3f414d;
+    margin-bottom: 1rem;
+  }
+  .login__text {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    font-family: "Montserrat", sans-serif;
+    color: #777d74;
+    margin-bottom: 3.2rem;
+  }
+  .form__group {
+    margin-bottom: 2rem;
+  }
+  label {
+    display:  flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    font-family: "Montserrat", sans-serif;
+    color: #3f414d;
+    margin-bottom: 0.8rem;
+    &[for='checkbox'] {
+      justify-content: flex-start;
+      align-items: center;
+    }
+  }
+  a {
+    color: #007bff;
+    text-align: right;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+  }
+  .login__input {
+    display: block;
+    width: 100%;
+    height: 4.6rem;
+    padding: 0.6rem 1.2rem;
+    font-size: 1.4rem;
+    font-family: "Montserrat", sans-serif;
+    color: #3f414d;
+    border: 1px solid #f1f1f1;
+    border-radius: 1rem;
+    &::placeholder {
+      color: #777d74;
+    }
+  }
+  #checkbox {
+    display: block;
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-right: 1rem;
+  }
+  .remember__me {
+    cursor: pointer;
+    label {
+      cursor: pointer;
+    }
+  }
+  .btns__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sing__in__btn {
+    width: 7.5rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    background-color: #50B5FF;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+}

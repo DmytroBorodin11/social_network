@@ -1,0 +1,60 @@
+.message__card {
+  width: 100%;
+  display: flex;
+  margin: 3rem 0;
+}
+
+.message__card.main__user {
+  justify-content: flex-end;
+}
+
+.message__card.main__user .card__info {
+  order: 2;
+  margin-right: 0;
+  margin-left: 1.5rem;
+}
+
+.message__card.main__user .message__text {
+  color: #fff;
+  background-color: #007bff;
+  box-shadow: 0 2px 4px 0 #50b5ff;
+}
+
+.message__card .message__wrap {
+  width: auto;
+  max-width: 75%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.message__card .card__info {
+  width: 3rem;
+  height: auto;
+  margin-right: 1.5rem;
+}
+
+.message__card .user__icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.4rem;
+}
+
+.message__card .send__time {
+  margin-top: 0.8rem;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: #777d74;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.message__card .message__text {
+  padding: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #3f414d;
+  border-radius: 1rem;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(44, 101, 144, 0.1);
+}
+/*# sourceMappingURL=MessageCard.css.map */

@@ -1,0 +1,22 @@
+.sidebar {
+  width: 30rem;
+  padding: 1.5rem;
+  background-color: #fff;
+  overflow: auto;
+  transition: all 0.3s ease;
+}
+
+.sidebar.mini {
+  width: auto;
+}
+
+.sidebar.mini .item__name {
+  width: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.sidebar.mini .link__icon {
+  margin-right: 0;
+}
+/*# sourceMappingURL=Sidebar.css.map */

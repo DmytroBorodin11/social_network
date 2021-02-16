@@ -1,0 +1,75 @@
+.friend__card__wrap {
+  width: 49%;
+  min-width: 30rem;
+  margin: 0 2% 2% 0;
+  border-radius: 0.5rem;
+  background-color: #fff;
+}
+
+.friend__card__wrap:nth-child(even) {
+  margin: 0 0% 2% 0;
+}
+
+.friend__card__wrap .friend__card__header {
+  width: 100%;
+  padding-top: 25%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.5rem;
+}
+
+.friend__card__wrap .friend__card__body {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+.friend__card__wrap .friend__icon__block {
+  width: 10rem;
+  margin-right: 1.5rem;
+}
+
+.friend__card__wrap .friend__icon {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  transform: translateY(-55%);
+}
+
+.friend__card__wrap .friend__info__block {
+  width: calc(100% - 10rem);
+}
+
+.friend__card__wrap .friend__name, .friend__card__wrap .friend__position {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  color: #3f414d;
+}
+
+.friend__card__wrap .friend__position {
+  font-size: 1.4rem;
+}
+
+.friend__card__wrap .friend__status {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  color: #777d74;
+}
+
+.friend__card__wrap .follow__status_btn {
+  width: 9rem;
+  font-size: 1.4rem;
+  line-height: 3.2rem;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  background-color: #50B5FF;
+  border-radius: 0.3rem;
+}
+
+.friend__card__wrap .follow__status_btn[disabled] {
+  background-color: #777d74;
+}
+/*# sourceMappingURL=FriendCard.css.map */

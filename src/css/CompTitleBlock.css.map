@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,wBAAwB,CAAC;EACvB,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,MAAM;EACf,aAAa,EAAE,iBAAiB;CACjC;;AACD,AAAA,iBAAiB,CAAC;EAChB,WAAW,EAAE,qBAAqB;EAClC,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,IAAI;CAClB",
+    "sources": [
+        "../scss/CompTitleBlock.scss"
+    ],
+    "names": [],
+    "file": "CompTitleBlock.css"
+}

@@ -1,0 +1,190 @@
+.component__wrap.profile {
+  width: 100%;
+  max-width: 100rem;
+  margin: 0 auto;
+  background: transparent;
+  box-shadow: none;
+}
+
+.component__wrap.profile .profile__header {
+  width: 100%;
+  border-radius: 1rem;
+  background-color: #fff;
+}
+
+.component__wrap.profile .header {
+  position: relative;
+  width: 100%;
+  padding-top: 24.2%;
+  border-radius: 1rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.component__wrap.profile .header__btns__block {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  display: flex;
+}
+
+.component__wrap.profile .header__btn {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  color: #007bff;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 1rem 0;
+}
+
+.component__wrap.profile .header__btn .icon-settings {
+  font-size: 1.6rem;
+}
+
+.component__wrap.profile .body {
+  width: 100%;
+  padding: 3rem 2.4rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.component__wrap.profile .contacts__block, .component__wrap.profile .user__info, .component__wrap.profile .profile__info {
+  width: 33.3333%;
+}
+
+.component__wrap.profile .contacts__block {
+  display: flex;
+  align-items: center;
+}
+
+.component__wrap.profile .contacts__block a {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1.5rem;
+}
+
+.component__wrap.profile .contacts__block a:last-child {
+  margin-right: 0;
+}
+
+.component__wrap.profile .contacts__block a.disabled {
+  display: none;
+}
+
+.component__wrap.profile .contacts__block a img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.3rem;
+}
+
+.component__wrap.profile .user__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.component__wrap.profile .profile__img {
+  position: relative;
+  z-index: 2;
+  margin: -15rem 0 1.5rem;
+  background-color: #f7f7f7;
+  border-radius: 50%;
+}
+
+.component__wrap.profile .profile__img img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+
+.component__wrap.profile .profile__name {
+  font-size: 3rem;
+  color: #3f414d;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.component__wrap.profile .position {
+  font-size: 1.6rem;
+  line-height: 3rem;
+  color: #777d74;
+}
+
+.component__wrap.profile .profile__info {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.component__wrap.profile .profile__info__block {
+  margin: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.component__wrap.profile .profile__info__block:last-child {
+  margin-right: 0;
+}
+
+.component__wrap.profile .block__title, .component__wrap.profile .block__val {
+  line-height: 1.8rem;
+  text-align: center;
+}
+
+.component__wrap.profile .block__title {
+  font-family: "Poppins", sans-serif;
+  color: #3f414d;
+}
+
+.component__wrap.profile .block__val {
+  font-family: "Montserrat", sans-serif;
+  color: #777d74;
+}
+
+.component__wrap.profile .profile__status__block {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 4rem;
+  margin: 2rem 0;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.component__wrap.profile .profile__status__block .bold {
+  font-weight: 700;
+}
+
+.component__wrap.profile .profile__status__block span, .component__wrap.profile .profile__status__block p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #3f414d;
+}
+
+.component__wrap.profile .profile__status__block span {
+  margin-right: 2rem;
+}
+
+.component__wrap.profile .profile__status__block p {
+  cursor: pointer;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid transparent;
+}
+
+.component__wrap.profile .profile__status__block input {
+  width: 50%;
+  min-width: 25rem;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #f7f7f7;
+  border-radius: 0.4rem;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #A09e9e;
+  font-family: "Montserrat", sans-serif;
+}
+/*# sourceMappingURL=Profile.css.map */

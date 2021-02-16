@@ -1,0 +1,51 @@
+.message__card {
+  width: 100%;
+  display: flex;
+  margin: 3rem 0;
+  &.main__user {
+    justify-content: flex-end;
+    .card__info {
+      order: 2;
+      margin-right: 0;
+      margin-left: 1.5rem;
+    }
+    .message__text {
+      color: #fff;
+      background-color: #007bff;
+      box-shadow: 0 2px 4px 0 rgb(80, 181, 255);
+    }
+  }
+  .message__wrap {
+    width: auto;
+    max-width: 75%;
+    display: flex;
+    align-items: flex-start;
+  }
+  .card__info {
+    width: 3rem;
+    height: auto;
+    margin-right: 1.5rem;
+  }
+  .user__icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.4rem;
+  }
+  .send__time {
+    margin-top: 0.8rem;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #777d74;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .message__text {
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #3f414d;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 0px rgba(44, 101, 144, 0.1);
+  }
+}
