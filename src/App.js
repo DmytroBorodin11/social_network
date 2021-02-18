@@ -3,7 +3,6 @@ import './App.css';
 import {BrowserRouter, Route} from "react-router-dom";
 import AppWrap from "./AppWrap";
 import {connect} from "react-redux";
-import {uploadAuthUserData} from "./store/authReducer";
 import Preloader from "./Main/Preloader/Preloader";
 import {initializeApp} from "./store/appReducer";
 
